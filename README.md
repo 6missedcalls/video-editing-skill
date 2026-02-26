@@ -9,7 +9,9 @@
 [![FFmpeg](https://img.shields.io/badge/FFmpeg-Powered-007808?logo=ffmpeg&logoColor=white)](#requirements)
 [![Whisper](https://img.shields.io/badge/Whisper-OpenAI-412991?logo=openai&logoColor=white)](#requirements)
 [![Scripts: 6](https://img.shields.io/badge/Scripts-6-orange)](#scripts-reference)
-[![Made for: Claude Code](https://img.shields.io/badge/Made_for-Claude_Code-blueviolet)](https://claude.ai/claude-code)
+[![OpenClaw](https://img.shields.io/badge/OpenClaw-Tested-ff6b35)](https://openclaw.com)
+[![Claude Code](https://img.shields.io/badge/Claude_Code-Compatible-blueviolet)](https://claude.ai/claude-code)
+[![Codex](https://img.shields.io/badge/Codex-Compatible-10a37f)](https://openai.com/codex)
 
 ---
 
@@ -32,7 +34,8 @@ AI agents are great at writing code — but when you ask them to edit a video, t
 - **3 caption styles** — Hormozi, standard, and minimal — burned directly into the video
 - **Smart silence removal** — auto-detects dead air with configurable thresholds
 - **Whisper transcription** — generates SRT files locally, no API calls, no cloud dependency
-- **Works standalone** — every script runs independently, with or without Claude Code
+- **Multi-agent compatible** — built for OpenClaw, Claude Code, and Codex; used and tested with OpenClaw
+- **Works standalone** — every script runs independently, with or without an AI agent
 
 ---
 
@@ -417,7 +420,11 @@ video-editing-skill/
 
 ## Agent Compatibility
 
-This skill is built for **Claude Code** and follows the skill metadata convention via `SKILL.md`. It also works with any AI agent that can execute shell commands.
+Built for **OpenClaw**, **Claude Code**, and **Codex**. Used and tested with **OpenClaw**.
+
+This skill follows the [Agent Skills Protocol](https://agentskills.io) via `SKILL.md` and works with any AI agent that can execute shell commands, including:
+
+OpenClaw &bull; Claude Code &bull; Codex &bull; Cursor &bull; Windsurf &bull; Cline &bull; Roo Code &bull; Goose &bull; Continue &bull; Kilo &bull; Amp &bull; and more
 
 **Natural language examples:**
 
